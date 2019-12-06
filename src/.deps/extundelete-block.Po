@@ -1,0 +1,225 @@
+extundelete-block.o: block.c ../config.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdio.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/cdefs.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/api-level.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/versioning.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdint.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/wchar_limits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/bitsperlong.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/posix_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/stddef.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/compiler_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/compiler.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/posix_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/posix_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/pthread_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/seek_constants.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/string.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/xlocale.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/strcasecmp.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/unistd.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/select.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/time.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/signal.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/sigcontext.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/signal_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/limits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/limits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/posix_limits.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/signal.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/signal.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/signal-defs.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/siginfo.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/siginfo.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/timespec.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/ucontext.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/user.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_signal_inlines.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/fcntl.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/getopt.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/ioctl.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/lockf.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/sysconf.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2fs.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdlib.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/alloca.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/wait.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/wait.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/malloc.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/errno.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/errno.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/errno.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/errno.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_errno_inlines.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_types.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_fs.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext3_extents.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/et/com_err.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_io.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_err.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_ext_attr.h \
+ /home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/bitops.h \
+ block.h
+
+../config.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdio.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/cdefs.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/api-level.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/versioning.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdint.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/wchar_limits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/posix_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/stddef.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/compiler_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/compiler.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/posix_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/pthread_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/seek_constants.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/string.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/xlocale.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/strcasecmp.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/unistd.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/select.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/time.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/signal.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/sigcontext.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/signal_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/limits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/limits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/posix_limits.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/signal.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/signal.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/signal-defs.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/siginfo.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/timespec.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/ucontext.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/sys/user.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/fcntl.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/getopt.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/ioctl.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/lockf.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/sysconf.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2fs.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/stdlib.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/alloca.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/bits/wait.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/wait.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/malloc.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/errno.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/linux/errno.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm/errno.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/errno.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/android/legacy_errno_inlines.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_types.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_fs.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext3_extents.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/et/com_err.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_io.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_err.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/ext2_ext_attr.h:
+
+/home/exiahan/Applications/android/ndktoolchain32/sysroot/usr/include/ext2fs/bitops.h:
+
+block.h:
